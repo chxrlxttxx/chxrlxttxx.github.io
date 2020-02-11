@@ -4,7 +4,7 @@ body {
 }
 
 p {
-    color: rgb(1, 95, 1); 
+    color: rgb(255, 255, 255); 
     font-size: 30px;
     font-family:courier;
 }
@@ -31,3 +31,36 @@ li {
 hr {
     color: rgb(0, 0, 0);
 }
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: visible;
+      background-color: #272727;
+}
+    
+li {
+      float: center;
+}
+    
+li a {
+      display: block;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 30px;
+      text-decoration: none;
+}
+  
+li a:hover {
+      background-color: #414141;
+}
+
+pre {
+    color: rgb(255, 255, 255);
+}
+
+h4 {
+    font-size: 60px;
+} 
+    
