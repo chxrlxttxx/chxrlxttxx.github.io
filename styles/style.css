@@ -9,4 +9,17 @@ body {
 p {
     color: rgb(1, 95, 1); 
     font-size: 30px;
+    font-family:courier;
+}
+
+h1 {
+    font-family:courier;
+}
+
+h2 {
+    font-family:courier;
+}
+
+h3 {
+    font-family:courier;
 }
