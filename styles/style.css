@@ -1,6 +1,12 @@
 body {
  background-color: rgba(1, 136, 30, 0.603);
   
- <p style="color:green;font-size:30px;">A game with twists </p>
+ color:green;font-size:30px;
 
+
+}
+
+p {
+    color: black;
+    font-size: 30px;
 }
