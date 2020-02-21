@@ -78,3 +78,9 @@ table, th, td {
     border: 1px solid black;
     border-collapse: 1px solid black;
 }
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
