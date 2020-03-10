@@ -12,6 +12,15 @@ p {
 h1 {
     font-family:courier;
     color: rgb(0, 0, 0);
+    text-align:center;
+    font-size:300%;
+}
+
+#myHeader {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
 }
 
 h2 {
@@ -24,7 +33,7 @@ h3 {
     color: rgb(0, 0, 0);
 }
 
-li {
+li { 
     font-family:courier;
     color: rgb(0, 0, 0);
 }
