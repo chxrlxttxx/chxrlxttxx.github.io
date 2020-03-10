@@ -9,6 +9,11 @@ p {
     font-family:courier;
 }
 
+.game {
+    text-align:center;
+    font-size:160%;
+}
+
 h1 {
     font-family:courier;
     color: rgb(0, 0, 0);
