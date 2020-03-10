@@ -84,3 +84,8 @@ table, th, td {
 ol {
     color: rgb(0, 0, 0); 
 }
+
+a {
+    font-family: courier;
+    font-size: 30px;
+}
