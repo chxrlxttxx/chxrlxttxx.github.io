@@ -26,9 +26,12 @@ h3 {
     color: rgb(0, 0, 0);
 }
 
-.candidates {
-    font-family:courier;
-    color: rgb(0, 0, 0);
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #272727;
 }
 
 hr {
@@ -36,11 +39,8 @@ hr {
 }
 
 ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: visible;
-      background-color: #272727;
+    font-family:courier;
+    color: rgb(0, 0, 0);
 }
     
 li {
