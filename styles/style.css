@@ -111,7 +111,7 @@ a:link {
     text-decoration: underline;
   }
   a:active {
-    color: yellow;
+    color: rgb(0, 107, 0);
     background-color: transparent;
     text-decoration: underline;
   }
