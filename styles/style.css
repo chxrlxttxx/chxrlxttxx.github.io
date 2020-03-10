@@ -96,7 +96,7 @@ a {
 }
 
 a:link {
-    color: green;
+    color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: none;
   }
@@ -106,7 +106,7 @@ a:link {
     text-decoration: none;
   }
   a:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 107, 0);
     background-color: transparent;
     text-decoration: underline;
   }
