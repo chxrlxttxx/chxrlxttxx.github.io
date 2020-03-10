@@ -95,6 +95,12 @@ a {
     font-size: 30px;
 }
 
+.see_candidates {
+    color: rgb(0, 0, 0);
+    font-family: courier;
+    font-size: 30px;
+}
+
 a:link {
     color: rgb(0, 0, 0);
     background-color: transparent;
