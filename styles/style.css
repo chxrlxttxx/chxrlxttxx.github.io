@@ -108,11 +108,12 @@ table {
     font-size: 30px;
     font-family:Helvetica;
     width: 20%;
+    align-self: center;
 }
 
 table, th, td {
-    border: 1px solid black;
-    border-collapse: 1px solid black;
+    border: solid darkgreen;
+    padding: 10px;
 }
 
 ol {
