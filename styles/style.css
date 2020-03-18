@@ -52,7 +52,7 @@ ul {
 li a {
       display: block;
       color: rgb(255, 255, 255);
-      text-align: center;
+      text-align: left;
       padding: 30px;
       text-decoration: none;
 }
