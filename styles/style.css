@@ -9,6 +9,13 @@ p {
     font-size: 30px;
     font-family: Helvetica;
     text-align: left;
+}
+
+.explain {
+    color: rgb(0, 0, 0); 
+    font-size: 30px;
+    font-family: Helvetica;
+    text-align: left;
     border: solid darkgreen;
     padding: 20px;
 }
