@@ -11,6 +11,13 @@ p {
     text-align: left;
 }
 
+.images {
+    color: rgb(0, 0, 0); 
+    font-size: 30px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
 .game {
     text-align:center;
     font-size:160%;
