@@ -1,8 +1,8 @@
 body {
-    background-image: image(flags.jpg)
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/81Kn%2B3DfhVL._AC_SL1200_.jpg);
     filter: blur(8px);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;;
+    background-size: cover;
 }
