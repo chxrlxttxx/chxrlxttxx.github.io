@@ -19,6 +19,8 @@ p {
     border: solid darkgreen;
     padding: 20px;
     border-right-style: solid;
+    border-top-style: dashed;
+    border-bottom-style: dotted;
 }
 
 .images {
