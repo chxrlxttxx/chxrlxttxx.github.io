@@ -1,6 +1,7 @@
 body {
     background-color: hsla(134, 70%, 34%, 0.555);
-    color:green;font-size:30px;
+    color:green;
+    font-size:30px;
 }
 
 p {
@@ -38,6 +39,7 @@ h3 {
     padding: 0;
     overflow: visible;
     background-color: #272727;
+    text-align: left;
 }
 
 hr {
@@ -47,6 +49,7 @@ hr {
 ul {
     font-family:Helvetica;
     color: rgb(0, 0, 0);
+    text-align: left;
 }
      
 li a {
