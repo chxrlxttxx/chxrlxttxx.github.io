@@ -85,8 +85,23 @@ body, html {
   h1 {
     text-decoration: underline overline;
     font-size:50px;
+    text-transform: uppercase;
  }
 
- p {
+ .title {
     letter-spacing: 3px;
  }
+
+ a:link, a:visited {
+  background-color: none;
+  border: 3px solid white;
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: white;
+}
