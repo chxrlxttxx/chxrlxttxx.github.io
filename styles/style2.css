@@ -3,22 +3,6 @@ body, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
-
-  .body_home {
-    background-image: url("https://www.rivage-flussreisen.ch/tourtrader/_processed_/4/e/csm_1222272_c7143ccd54.jpg");
-        /* Add the blur effect */
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
-        
-        /* Full height */
-        height: 100%; 
-        
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: scroll;
-  }
   
   * {
     box-sizing: border-box;
@@ -42,6 +26,23 @@ body, html {
     background-attachment: scroll;
   }
 
+  .bg-image2 {
+    /* The image used */
+    background-image: url("https://www.rivage-flussreisen.ch/tourtrader/_processed_/4/e/csm_1222272_c7143ccd54.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
 
   
   /* Position text in the middle of the page/image */
@@ -152,5 +153,4 @@ a:hover, a:active {
   margin: 0;
   padding: 0;
   float: right;
-  border: 5px solid white
 }
