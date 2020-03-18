@@ -58,6 +58,12 @@ ul {
     color: rgb(0, 0, 0);
     text-align: center;
 }
+
+.candidates {
+    font-family:Helvetica;
+    color: rgb(0, 0, 0);
+    text-align: left;
+}
      
 li a {
       display: block;
