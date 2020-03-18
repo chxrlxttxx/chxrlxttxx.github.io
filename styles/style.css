@@ -18,6 +18,7 @@ p {
     text-align: left;
     border: solid darkgreen;
     padding: 20px;
+    border-right-style: solid;
 }
 
 .images {
