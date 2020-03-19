@@ -31,8 +31,8 @@ body, html {
     background-image: url("https://www.rivage-flussreisen.ch/tourtrader/_processed_/4/e/csm_1222272_c7143ccd54.jpg");
     
     /* Add the blur effect */
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
     
     /* Full height */
     height: 100%; 
@@ -44,6 +44,43 @@ body, html {
     background-attachment: scroll;
   }
 
+  .bg-image3 {
+    /* The image used */
+    background-image: url("https://www.fodors.com/assets/destinations/707514/cityscape-lake-lucerne-lucerne-switzerland.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .bg-image4 {
+    /* The image used */
+    background-image: url("https://de.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_230/vue-a%C3%A9rienne-paris-tour-eiffel-coucher-de-soleil-%7C-630x405-%7C-%C2%A9-fotolia/19544352-1-fre-FR/Vue-a%C3%A9rienne-Paris-Tour-Eiffel-coucher-de-soleil-%7C-630x405-%7C-%C2%A9-Fotolia.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+
   
   /* Position text in the middle of the page/image */
   .bg-text {
@@ -51,7 +88,7 @@ body, html {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
+    border: 5px solid #f1f1f1;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -69,7 +106,7 @@ body, html {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    border: 3px solid #f1f1f1;
+    border: 5px solid #f1f1f1;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -100,10 +137,14 @@ body, html {
     float: left;
  }
 
+ .backhome {
+   margin: 20px;
+ }
+
  [class*="col-"] {
     float: left;
     padding: 15px;
-    border: 5px solid white;
+    border: 1px solid white;
   }
   
   .col-1 {width: 8.33%;}
@@ -130,14 +171,14 @@ body, html {
  }
 
  .title {
-    letter-spacing: 3px;
+    letter-spacing: 5px;
  }
 
  a:link, a:visited {
   background-color: none;
-  border: 3px solid white ;
+  border: 5px solid white ;
   color: white;
-  padding: 10px 50px;
+  padding:10px 40px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -154,3 +195,4 @@ a:hover, a:active {
   padding: 0;
   float: right;
 }
+
