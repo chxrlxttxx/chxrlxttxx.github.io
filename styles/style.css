@@ -106,7 +106,7 @@ h4 {
 } 
 
 table {
-    color: rgb(0, 0, 0); 
+    color: rgb(0, 0, 0);    
     font-size: 30px;
     font-family:Helvetica;
     width: 20%;
@@ -114,8 +114,9 @@ table {
 }
 
 table, th, td {
-    
+    border: solid darkgreen;
     padding: 10px;
+    align-self: center; 
 }
 
 ol {
