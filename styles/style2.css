@@ -3,6 +3,20 @@ body, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+.body_ams {
+  background-image: url("https://www.rivage-flussreisen.ch/tourtrader/_processed_/4/e/csm_1222272_c7143ccd54.jpg");
+}
+
+.body_lu {
+  background-image: url("https://www.fodors.com/assets/destinations/707514/cityscape-lake-lucerne-lucerne-switzerland.jpg");
+}
+
+.body_paris {
+  background-image: url("https://de.parisinfo.com/var/otcp/sites/images/node_43/node_51/node_230/vue-a%C3%A9rienne-paris-tour-eiffel-coucher-de-soleil-%7C-630x405-%7C-%C2%A9-fotolia/19544352-1-fre-FR/Vue-a%C3%A9rienne-Paris-Tour-Eiffel-coucher-de-soleil-%7C-630x405-%7C-%C2%A9-Fotolia.jpg");
+  background-repeat: no-repeat;
+}
+
   
   * {
     box-sizing: border-box;
@@ -106,7 +120,6 @@ body, html {
     background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
     color: white;
     font-weight: bold;
-    border: 5px solid #f1f1f1;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -153,6 +166,7 @@ body, html {
 
  .backhome {
    margin: 20px;
+   float: right;
  }
 
  [class*="col-"] {
@@ -188,7 +202,7 @@ body, html {
     letter-spacing: 5px;
  }
 
- a:link, a:visited {
+ .footer a:link, a:visited {
   background-color: none;
   border: 5px solid white ;
   color: white;
@@ -203,7 +217,7 @@ a:hover, a:active {
 }
 
 .navli {
-  background-color: rgba(0,0,0, 0.4);
+  background-color: transparent;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -228,8 +242,12 @@ div.gallery img {
   height: 50%;
 }
 
-.desc a {
-  border: none;
-  
+#ams a:link, a:visited, a:hover, a:active {
+  text-decoration: underline;
+}
+
+.img {
+  border: 5px solid white;
+  margin: 10px;
 }
 
