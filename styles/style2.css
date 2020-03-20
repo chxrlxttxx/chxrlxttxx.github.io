@@ -126,11 +126,11 @@ body, html {
   }
 
  .footer {
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     color: white;
     text-align: center;
     border: 1px solid white;
@@ -194,5 +194,25 @@ a:hover, a:active {
   margin: 0;
   padding: 0;
   float: right;
+  text-align: center;
+}
+
+div.gallery {
+  margin: 0;
+  float: center;
+  width: 20%;
+}
+
+div.gallery:hover {
+  border: none;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc a {
+  border: none;
 }
 
