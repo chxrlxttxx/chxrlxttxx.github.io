@@ -134,6 +134,12 @@ a {
     font-size: 30px;
 }
 
+.see_candidates a:link, a:visited, a:hover, a:active {
+    color: rgb(0, 107, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
 a:link {
     color: rgb(255, 255, 255);
     background-color: transparent;
@@ -159,4 +165,8 @@ a:link {
   width: 100%;
   background-color: rgb(255, 255, 255);
   overflow: auto;
+}
+
+.flags {
+    border: 5px solid rgb(4, 136, 33);
 }
