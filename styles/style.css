@@ -17,15 +17,16 @@ p {
     text-align: left;
 }
 
-.explain {
-    color: rgb(0, 133, 40); 
-    font-size: 30px;
-    font-family: Helvetica;
-    text-align: left;
-    border: darkgreen;
-    padding: 50px;
-    border-left-style: solid;
-    
+@media screen and (min-width: 600px) {
+    .explain {
+        color: rgb(0, 133, 40); 
+        font-size: 30px;
+        font-family: Helvetica;
+        text-align: left;
+        border: darkgreen;
+        padding: 50px;
+        border-left-style: solid; 
+    }
 }
 
 .images {
@@ -37,14 +38,14 @@ p {
 
 .game {
     text-align:center;
-    font-size:160%;
+    font-size:16vw;
 }
 
 h1 {
     font-family:Helvetica;
     color: rgb(0, 0, 0);
     text-align:center;
-    font-size: 300vw;
+    font-size: 30vw;
 }
 
 h2 {
