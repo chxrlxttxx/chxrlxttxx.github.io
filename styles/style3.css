@@ -14,7 +14,7 @@ body {
   }
   
 .grid-container > div {
-    background-color: rgba(1, 173, 73, 0.562);
+    background-color: rgb(203, 255, 203);
     text-align: center;
     padding: 50px;
     font-size: 20px;
@@ -47,12 +47,12 @@ body {
   
   .item5 {
     grid-column: 1;
-    grid-row: 3 / span 2;
+    grid-row: 3;
   }
 
   .item6 {
     grid-column: 2;
-    grid-row: 3 / span 2;
+    grid-row: 3;
   }
 
   .item7 {
@@ -82,6 +82,10 @@ li a:hover {
     text-decoration: underline;
 }
 
+li {
+    font-family: helvetica;
+}
+
 .see_candidates {
     display: block;
     color: rgb(0, 0, 0);
@@ -101,6 +105,18 @@ h1 {
     color: rgb(0, 0, 0);
     text-align:center;
     font-size:100px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-size: 50px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-size: 40px;
 }
 
 .game {
