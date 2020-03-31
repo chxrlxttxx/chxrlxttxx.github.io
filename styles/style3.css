@@ -26,7 +26,7 @@ body {
     grid-template-columns: ( [col] 100px ) ;
     grid-template-rows: repeat([row]);
     background-color: rgb(203, 255, 203);
-    color: #444;
+    color: rgb(0, 0, 0);
 }
 
 .item1 { grid-area: menu; }
@@ -151,6 +151,7 @@ h2 {
     color: rgb(0, 0, 0);
     text-align:center;
     font-size: 40px;
+    border-bottom: solid black;
 }
 
 .game {
@@ -159,11 +160,7 @@ h2 {
 }
 
 ul {
-    font-family:Helvetica;
-    color: rgb(0, 0, 0);
-    text-align: left;
     list-style-type: none;
-
 }
 
 .i4 {
@@ -171,10 +168,27 @@ ul {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border-bottom: 3px solid black;
     border-collapse: collapse;
-    padding: 15px;
+    padding: 5px;
+    margin: auto;
 }
 
+.money td {
+    border-bottom: 3px solid black;
+    border-right: none;
+}
+
+.mol table, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.season {
+    text-align: center;
+}
 
   
