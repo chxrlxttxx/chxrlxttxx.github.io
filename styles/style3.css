@@ -80,7 +80,20 @@ li a:hover {
     color: rgb(255, 255, 255);
     background-color: transparent;
     text-decoration: underline;
+}
 
+.see_candidates {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+.see_candidates a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 h1 {
