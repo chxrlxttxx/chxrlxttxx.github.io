@@ -169,17 +169,21 @@ body, html {
    float: right;
  }
 
- [class*="col-"] {
-    float: left;
-    padding: 15px;
-    border: 1px solid white;
-  }
-  
-  .col-1 {width: 20%;}
-  .col-2 {width: 40%;}
-  .col-3 {width: 60%;}
-  .col-4 {width: 80%;}
-  .col-5 {width: 100%;}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'header header header header header header'
+  'menu main main main main right'
+  'menu footer footer footer footer right';
+  background-color: rgb(0, 107, 0);
+  padding: 10px;
+}
 
   h1 {
     text-decoration: underline overline;
