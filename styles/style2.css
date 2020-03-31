@@ -254,7 +254,7 @@ div.gallery img {
   margin: 10px;
 }
 
-.flagss a:link, a:visited, a:hover, a:active {
+.flagss a:link, a:visited {
   color: rgb(0, 107, 0);
   background-color: transparent;
    text-decoration: none;
