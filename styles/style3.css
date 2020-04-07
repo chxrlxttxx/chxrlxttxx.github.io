@@ -168,23 +168,16 @@ ul {
 }
 
 table, th, td {
-    border-bottom: 3px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-    margin: auto;
+  border-bottom: 3px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  margin: auto;
 }
 
-.money td {
-    border-bottom: 3px solid black;
-    border-right: none;
-}
-
-.mol table, td {
-    border: 3px solid black;
-    border-collapse: collapse;
-    padding: 5px;
-    margin: auto;
-    text-align: center;
+.tabledata {
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  width: 100%;
 }
 
 .season {

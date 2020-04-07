@@ -31,8 +31,17 @@ ul {
 }
 
 table, th, td {
-    border: 3px solid black;
+    border-bottom: 3px solid black;
     border-collapse: collapse;
     padding: 5px;
     margin: auto;
+}
+
+.tabledata {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+}
+
+.candidatespic {
+    border-top: 3px solid black;
 }
