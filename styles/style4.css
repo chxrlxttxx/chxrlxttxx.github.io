@@ -45,3 +45,37 @@ table, th, td {
 .candidatespic {
     border-top: 3px solid black;
 }
+
+.boxee {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+  }
+
+  .box_e {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.box_f {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.box_g {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.box_h {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: ( [col] 100px ) ;
+    grid-template-rows: repeat([row]);
+    background-color: rgb(203, 255, 203);
+    color: rgb(0, 0, 0);
+}

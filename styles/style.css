@@ -148,7 +148,7 @@ table {
 
 table, th, td {
     border: solid darkgreen;
-    padding: 10px;
+    padding: 1px;
     align-self: center; 
 }
 
@@ -203,3 +203,51 @@ a:link {
 .flags {
     border: 10px solid rgb(4, 136, 33);
 }
+
+.boxee {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+  }
+
+  .box_e {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.box_f {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.box_g {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.box_h {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: ( [col] 100px ) ;
+    grid-template-rows: repeat([row]);
+    background-color: rgb(203, 255, 203);
+    color: rgb(0, 0, 0);
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 10px;
+    background-color: rgb(90, 230, 90);
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgb(203, 255, 203);
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+  }
