@@ -1,5 +1,5 @@
 body {
-    background-color: #131212;
+    background-color: #272727;
 }
 
 @media screen and (max-width: 1200px) {
@@ -22,7 +22,7 @@ body {
     'menu main main'
     'footer footer footer';
     grid-gap: 10px;
-    background-color: #131212;
+    background-color: #272727;
     padding: 10px;
   }
   
@@ -52,8 +52,8 @@ body {
     grid-row: 1;
   }
   
-  .item1 {
-    background-color: #414141;
+  #itemm1 {
+    background-color: #272727;
 }
   
   .item2 {
@@ -124,7 +124,7 @@ li a {
   display: block;
   color: rgb(255, 255, 255);
   text-align: center;
-  padding: 13px;
+  padding: 20px;
   text-decoration: none;
 }
 
