@@ -2,7 +2,7 @@ body {
     background-color: #131212;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
   .grid-container {
     display: grid;
     grid-template-areas: 
@@ -50,7 +50,11 @@ body {
   .item1 {
     grid-column: 1;
     grid-row: 1;
-  }  
+  }
+  
+  .item1 {
+    background-color: #414141;
+}
   
   .item2 {
     grid-column: 2 / span 2;
@@ -77,14 +81,9 @@ body {
     grid-row: 3;
   }
 
-  .item7 {
-    grid-column: 3;
-    grid-row: 4;
-  }
-
   .item8 {
     grid-column: 1 / span 3;
-    grid-row: 5;
+    grid-row: 4;
   }
 
   .boxee {
@@ -112,31 +111,26 @@ body {
     grid-row: 2;
 }
 
-
 .nav {
-    list-style-type: none;
-    margin: 10px;
-    padding: 0;
-    overflow: visible;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background-color: #272727;
+  text-align: left;
 }
 
 li a {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 30px;
-    text-decoration: none;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 13px;
+  text-decoration: none;
 }
 
 li a:hover {
-    color: rgb(255, 255, 255);
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-li {
-    font-family: helvetica;
+  background-color: #414141;
+  text-decoration: underline;
 }
 
 .see_candidates {
