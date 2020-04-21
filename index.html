@@ -30,8 +30,15 @@
   </div>
   <div class="item2" id="itemm2">
 
+    <p class="timeanddate" id="demo1" style="display:none"></p>
+    <button type="button" onclick="document.getElementById('demo1').style.display='block'">Click Me!</button>
+    <script>
+        var d = new Date();
+        document.getElementById("demo1").innerHTML = d;
+    </script>
+
     <h1>Wie is de mol?</h1>
-    <p class="game">A game with twists.</p>
+    <p class="game" id="demo">A game with twists.</p>
 
   </div>
   <div class="item3">

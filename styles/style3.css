@@ -196,4 +196,10 @@ table, th, td {
     text-align: center;
 }
 
+.timeanddate {
+  background-color: #272727;
+  color: white;
+  padding: 15px;
+}
+
   
