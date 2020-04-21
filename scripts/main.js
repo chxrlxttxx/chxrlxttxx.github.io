@@ -1,1 +1,2 @@
-document.body.innerHTML = "Webpage be gone!"
+var msg = "hello"
+console.log(msg)
