@@ -1,5 +1,6 @@
 body {
-    background-color: #272727;
+  background: rgb(39,39,39);
+  background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(0,180,4,1) 5%, rgba(0,245,5,1) 50%, rgba(0,180,4,1) 95%, rgba(39,39,39,1) 100%);
 }
 
 @media screen and (max-width: 1200px) {
@@ -15,6 +16,10 @@ body {
   }
 }
 
+@media (prefers-color-scheme: dark) {
+
+}
+
 .grid-container {
     display: grid;
     grid-template-areas: 
@@ -22,12 +27,15 @@ body {
     'menu main main'
     'footer footer footer';
     grid-gap: 10px;
-    background-color: #272727;
+    background: rgb(39,39,39);
+    background: linear-gradient(90deg, rgba(39,39,39,1) 0%, rgba(0,180,4,1) 5%, rgba(0,245,5,1) 50%, rgba(0,180,4,1) 95%, rgba(39,39,39,1) 100%);
     padding: 10px;
   }
   
 .grid-container > div {
-    background-color: rgb(203, 255, 203);
+    background: transparent;
+    border: solid #272727;
+    border-right: none;
     text-align: center;
     padding: 50px;
     font-size: 20px;
@@ -40,6 +48,8 @@ body {
     grid-template-rows: repeat([row]);
     background-color: rgb(203, 255, 203);
     color: rgb(0, 0, 0);
+    border: none;
+    background: transparent;
 }
 
 .item1 { grid-area: menu; }
@@ -55,6 +65,7 @@ body {
   #itemm1 {
     background-color: #272727;
     padding: 5px;
+    border-left: none;
 }
   
   .item2 {
@@ -70,6 +81,10 @@ body {
     grid-column: 1 / span 2;
     grid-row: 2;
   }
+
+  #itemm3 {
+    border-left: none;
+  }
   
   .item4 {
     grid-column: 3;
@@ -81,6 +96,10 @@ body {
     grid-row: 3;
   }
 
+  #itemm5 {
+    border-left: none;
+  }
+
   .item6 {
     grid-column: 2;
     grid-row: 3;
@@ -89,6 +108,10 @@ body {
   .item8 {
     grid-column: 1 / span 3;
     grid-row: 4;
+  }
+
+  #itemm8 {
+    border-left: none;
   }
 
   .boxee {
@@ -154,13 +177,13 @@ li a:hover {
 
 h1 {
     font-family:courier;
-    color: rgb(0, 0, 0);
+    color: black;
     text-align:center;
     font-size:100px;
 }
 
 h2 {
-    color: rgb(0, 0, 0);
+    color: rgb(2, 102, 10);
     text-align:center;
     font-size: 40px;
     border-bottom: solid black;
@@ -214,4 +237,7 @@ button a:hover {
   text-decoration: underline;
 }
 
+.p {
+  font-size: 25px;
+}
   

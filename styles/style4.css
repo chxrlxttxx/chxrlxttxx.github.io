@@ -1,5 +1,5 @@
 body {
-    background-color: #272727;
+  background-color: black;
 }
 
 @media screen and (max-width: 1200px) {
@@ -26,8 +26,10 @@ body {
     padding: 10px;
   }
   
-.grid-container > div {
-    background-color: rgb(203, 255, 203);
+  .grid-container > div {
+    background: transparent;
+    border: solid #272727;
+    border-right: none;
     text-align: center;
     padding: 50px;
     font-size: 20px;
@@ -134,21 +136,29 @@ li a:hover {
 
 h1 {
     font-family:courier;
-    color: rgb(0, 0, 0);
+    color: white;
     text-align:center;
     font-size:100px;
 }
 
 h2 {
-    color: rgb(0, 0, 0);
+    color: white;
     text-align:center;
     font-size: 40px;
     border-bottom: solid black;
+    border-top: solid black;
 }
 
 .game {
     text-align:center;
     font-size:60px;
+    color: white;
+    border-bottom: solid black;
+    border-top: solid black;
+}
+
+.p {
+  color: white;
 }
 
 ul {
@@ -164,6 +174,7 @@ table, th, td {
   border-collapse: collapse;
   padding: 5px;
   margin: auto;
+  color: white;
 }
 
 .tabledata {
@@ -174,6 +185,7 @@ table, th, td {
 
 .season {
     text-align: center;
+    color: white;
 }
 
   
