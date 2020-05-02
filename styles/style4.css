@@ -222,5 +222,23 @@ table, th, td {
   cursor: pointer;
 }
 
+.timeanddate {
+  color: white;
+  padding: 10px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border: solid #272727
+}
+
+button a:hover {
+  background-color: black;
+  text-decoration: underline;
+}
+
 
   
