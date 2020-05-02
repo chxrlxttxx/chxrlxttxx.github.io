@@ -104,12 +104,12 @@ body {
   padding: 0;
   overflow: visible;
   background-color: #272727;
-  text-align: left;
+  text-align: center;
 }
 
 li a {
   display: block;
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: center;
   padding: 10px;
   text-decoration: none;
@@ -117,7 +117,7 @@ li a {
 
 li a:hover {
   background-color: #414141;
-  text-decoration: underline;
+  text-decoration: underline black;
 }
 
 .see_candidates {
@@ -129,7 +129,7 @@ li a:hover {
 }
 
 .see_candidates a:hover {
-    color: rgb(255, 255, 255);
+    color: black;
     background-color: transparent;
     text-decoration: underline;
 }
