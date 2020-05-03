@@ -122,20 +122,6 @@ li a:hover {
   cursor: pointer;
 }
 
-.see_candidates {
-    display: block;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 30px;
-    text-decoration: underline;
-}
-
-.see_candidates a:hover {
-    color: black;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
 h1 {
   font-size: 80px;
   background: -webkit-linear-gradient(rgb(0, 199, 17), rgb(0, 48, 11));
@@ -172,6 +158,11 @@ h2 {
   cursor: auto;
 }
 
+.molactiesp {
+  color: white;
+  cursor: auto;
+}
+
 i {
   color: black;
 }
@@ -200,6 +191,11 @@ table, th, td {
 
 #money {
   text-decoration: underline double black;
+}
+
+.seecandidates {
+  color: black;
+  padding: 5px;
 }
 
 .season {
