@@ -33,7 +33,7 @@ body {
     'footer footer footer';
     grid-gap: 10px;
     background: rgb(162,249,167);
-    background: radial-gradient(circle, rgba(162,249,167,1) 0%, rgb(9, 138, 11) 100%);
+    background: radial-gradient(circle, rgba(162,249,167,1) 0%, rgb(5, 122, 7) 100%);
     padding: 10px;
   }
   
@@ -138,7 +138,7 @@ li a:hover {
 
 h1 {
   font-size: 4vw;
-  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(1, 117, 40));
+  background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(2, 141, 49));
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -259,16 +259,16 @@ table, th, td {
 }
 
 .button {
-  background-color: black;
+  background-color: #272727;
   color: white;
   padding: 10px;
   margin: 20px;
-  border: solid #272727
+  border: solid #036824;
 }
 
-button a:hover {
-  background-color: black;
-  text-decoration: underline;
+.checkboxx {
+  size: 100px;
+  border: solid #036824;
 }
 
 

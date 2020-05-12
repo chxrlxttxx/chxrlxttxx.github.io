@@ -2,7 +2,6 @@ function geklickt (name) {
     alert ("hello, who are you");
     document.write("Hallo " + name);
   }
-  geklickt ("User");
 
 function liebestest(name1, name2){
     var punkte;
