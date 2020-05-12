@@ -28,6 +28,25 @@
             document.getElementById("demo1").innerHTML = d;
         </script>
 
+        <script>
+          function geklickt (name) {
+            alert ("hello, who are you");
+            document.write("Hallo " + name);
+          }
+          geklickt ("User");
+
+        function liebestest(name1, name2){
+            var punkte;
+            punkte = (((name1 + name2).length)/name2.length)*2;
+            document.write(name1 + " und " + name2 + " passen zu " + punkte*10 + "% zusammen!");
+          }
+          liebestest("Chocolade","Milch");
+        </script>
+
+        <form>
+          <input onclick="geklickt()" type="button" value="you can click me too!"/>
+        </form>
+
     <h1>Wie is de mol?</h1>
 
     <p class="game">A game with twists.</p>
