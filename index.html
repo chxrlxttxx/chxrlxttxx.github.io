@@ -22,42 +22,37 @@
   <div class="item1" id="itemm1"> 
 
         <!--Javascript date/button-->
-        <p class="timeanddate" id="demo1" style="display:none"></p>
-        <button class="button" type="button" onclick="document.getElementById('demo1').style.display='block'">Click Me!</button>
-        <script>
-            var d = new Date();
-            document.getElementById("demo1").innerHTML = d;
-        </script>
-
         <script>
           function geklickt () {
             alert (Date());
           }
           
-
+ 
         function liebestest(name1, name2){
-            blur()
+            blur ()
             var punkte;
             punkte = (((name1 + name2).length)/name2.length)*2;
             document.write(name1 + " und " + name2 + " passen zu " + punkte*10 + "% zusammen!");
           }
-          liebestest("Chocolade","Milch");
+          liebestest("Airen","Taeke");
         </script>
 
         <form>
           <input class="button" onclick="geklickt()" type="button" value="Click me!"/>
         </form>
 
-    <h1>
-      Wie is de mol? <form><input class="checkboxx" type="checkbox"/></form>
-    </h1>
+    <h1>Wie is de mol?</h1>
 
     <p class="game">A game with twists.</p>
 
+    <a target="_blank" href="https://wieisdemol.avrotros.nl/home/">
+      <img class="widmlogo" src="images/widmlogoblack.jpeg" alt="WIDM LOGO"></a>
+      <br>  
 
   </div>
   <div class="item2" id="itemm2">
 
+    <br>
     <ul class="nav">
         <li><a href="index.html">Home<i class="fa fa-fw fa-home"></i></a></li> 
         <li><a href="hints.html">Hints 2020<i class="fa fa-fw fa-search"></i></a></li>
@@ -91,5 +86,7 @@
     <svg class="rect" width="400" height="180">
       <rect x="100" y="50" rx="1" ry="30" width="50" height="50"/>
     </svg>
+<br>
+
 
   </div>

@@ -245,6 +245,11 @@ table, th, td {
   100% {left:75px; top:50px; right: 15px;}
 }
 
+.widmlogo {
+  border: 10px solid green;
+  cursor: pointer;
+}
+
 .flagss {
   cursor: pointer;
 }
@@ -263,7 +268,7 @@ table, th, td {
   color: white;
   padding: 10px;
   margin: 20px;
-  border: solid #036824;
+  border: solid green;
 }
 
 .checkboxx {
