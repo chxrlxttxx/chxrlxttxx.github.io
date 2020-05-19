@@ -137,7 +137,7 @@ li a:hover {
 }
 
 h1 {
-  font-size: 4vw;
+  font-size: 5vw;
   background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(2, 141, 49));
   -webkit-background-clip: text;
   background-clip: text;
@@ -162,7 +162,6 @@ h2 {
 .game {
     text-align:center;
     font-size:3vw;
-    color: black;
     border-bottom: solid black;
     border-top: solid black;
     cursor: context-menu;
